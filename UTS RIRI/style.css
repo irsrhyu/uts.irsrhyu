@@ -1,0 +1,225 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Open Sans',sans-serif;
+    margin: auto;
+    width: 1350px;
+    margin: auto;
+    position: relative;
+
+}
+
+.navbar {
+    width: 1250px;
+    margin: auto;
+    position: relative;
+}
+
+.nama {
+    font-size: 20px;
+    font-weight: 750;
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 55px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0 ;
+    background: rgba(170, 168, 168, 0.397);
+    z-index: 1;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow:hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    text-align: center;
+    padding: 0px 16px 0px 16px ;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration : underline;
+}
+.page1 {
+        background-image: url('BG4.JPG');
+        background-size:cover; 
+        height: 100vh; /* Mengatur tinggi elemen menjadi 100% dari tinggi viewport */
+  background-repeat: no-repeat; /* Tidak mengulang gambar latar belakang */
+ 
+    
+}
+
+.identitas {
+        font-size: 36px;
+        text-align: left;
+        padding-left: 150PX;
+        padding-top: 350px;
+    }
+.identitas h1 {
+    color: white;
+}
+.identitas p {
+    color: white;
+}
+.resume-button {
+    background-color: white;
+    border-radius: 20px;
+    border-color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 7px 7px 7px 7px;
+}
+
+.moreinfo {
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: center;
+
+}
+.judul{
+    margin-top: 10px;
+}
+.judul2 {
+    padding-top: 70px;
+    font-size: 30px;
+    color: rgb(230, 228, 224);
+    padding-left: 80px;
+}
+.judul h1{
+ padding-bottom: 5px;
+  font-size: 60px;
+  color: rgb(230, 228, 224);
+  padding-left: 80px;
+}
+
+.judul p {
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 100px;
+}
+
+.judul1 h2 {
+    margin-top: 30px;
+    padding: 5px;
+    font-size: 30px;
+    padding-left: 110px;
+
+}
+
+.judul1 p {
+    padding: 5px;
+    padding-left: 110px;
+    font-size: medium;
+}
+
+.btn-button {
+    background-color:white;
+    border-radius: 25px;;
+    font-size: 17px;
+    margin-top: 20px;
+    padding: 9px 9px 9px 9px;
+    float: right;
+    margin-right: 50px;
+    color: black;
+}
+.wd{
+    
+    padding-left: 125px;
+    padding-top: 150px;
+    width: 50%; 
+    text-align: left; 
+    font-size: 25px;
+    padding-bottom: 150px;
+    
+}
+.wd1 {
+    padding-left: 125px;
+    padding-top: 80px;
+    width: 50%; 
+    text-align: left; 
+    font-size: 25px;
+    padding-bottom: 150px;
+}
+
+.image {
+    text-align: center;
+    width: 50%;
+    float: right;
+}
+
+.image img {
+    padding: 10px 10px 10px 10px ;
+}
+.container {
+    width: 50%;
+    float : right;
+}
+.form-container {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+
+  .form-container input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+
+  .form-container button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+  .icon {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .desc {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+    font-size: 15px;
+    padding-right: 15px;
+  }
+  
+  svg {
+    padding: 5px;
+    width: 50px;
+  }
